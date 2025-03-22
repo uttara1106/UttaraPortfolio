@@ -82,3 +82,21 @@
     border: 3px solid #333;
   }
   
+  /* Styling for the Download Resume button */
+a button {
+  background-color: #3498db; /* Blue background */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Padding around the text */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Change cursor to pointer */
+  font-size: 16px; /* Text size */
+  text-align: center; /* Center align the text */
+  text-decoration: none; /* Remove underline from the link */
+  display: inline-block; /* Make the button inline */
+  transition: background-color 0.3s ease; /* Smooth color change on hover */
+}
+
+a button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
